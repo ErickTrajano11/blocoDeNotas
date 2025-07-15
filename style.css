@@ -48,3 +48,19 @@ p {
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
+
+#limparNotas {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#limparNotas:hover {
+    background-color: #c82333;
+    transition: all 0.5s ease;
+}
